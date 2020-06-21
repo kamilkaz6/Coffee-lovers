@@ -1,0 +1,236 @@
+body
+{
+	margin: 0;
+	background-color: #2F3336;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1.logo
+{
+	font-size: 44px;
+	font-weight: 700;
+	color: #ddd;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+#topnav
+{
+	background: #DEC8C8;
+	text-align: center;
+}
+.menu
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+}
+
+.menu > li
+{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px dashed #919183;
+}
+
+.menu > li:first-child
+{
+	border-left: 1px dashed #919183;	
+}
+
+.menu a
+{
+	color: #2F3336;
+	text-decoration: none;
+}
+.menu a:hover
+{
+	color: #919183;
+}
+
+.categories
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding: 0;
+}
+
+h1
+{
+	font-size: 30px;
+	font-weight: 400;
+	color: #DEC8C8;
+	margin-bottom: 20px;
+}
+
+.punkty
+{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.punkty a
+{
+	opacity: 0.9;
+}
+
+.punkty a:hover
+{
+	opacity: 1;
+}
+figure
+{
+	margin: 8px;
+	padding: 0;
+}
+
+figcaption
+{
+	margin-top: 8px;
+	padding: 0;
+}
+
+.entries
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 80px;
+	margin-top: 40px;
+}
+
+#newest
+{
+	background-color: #1F2223;
+}
+
+.entry
+{
+	background-color: #403636;
+	padding: 10px;
+	text-align: justify;
+	margin-top: 40px;
+	border-radius: 5px;
+}
+
+.entryimg
+{
+	display: inline-block;
+	margin-left: 30px;
+	width: 110px;
+}
+
+.entryimg img
+{
+	width: 90px;
+	height: 90px;
+}
+
+.entrytxt
+{
+	display: inline-block;
+	width: 750px;
+	font-size: 15px;
+}
+
+.archiwum .entrytxt {
+	width: auto;
+}
+
+h2
+{
+	font-size: 20px;
+	font-weight: 400;
+	color: #DEC8C8;
+}
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+	font-size: 10px;
+}
+
+.container
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+.west
+{
+	float: left;
+	width: 750px;
+	padding: 20px;
+	text-align: justify;
+}
+
+.east
+{
+	float: left;
+	width: 170px;
+	padding: 20px;
+}
+
+.west h1
+{
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.east ul
+{
+	padding-left: 20px;
+}
+
+.east ul >li
+{
+	margin-bottom: 5px;
+}
+.dodajpost label
+{
+	display: block;
+	margin-bottom: 15px;
+}
+.dodajpost textarea
+{
+	display: block;
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+span.error
+{
+	color: red;
+	display: block;
+	font-size: 12px;
+}
+
+.entrytxt h2 span, .post h2 span
+{
+	margin-left: 20px;
+	font-size: 10px;
+	display: inline-block;
+}
+
+.post-date {
+	display: block;
+	font-size: 12px;
+}
